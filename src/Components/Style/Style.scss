@@ -1,0 +1,77 @@
+.A{
+    
+    color: #008485;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    &:before{
+      content: "0";
+      animation: counting 1s forwards;
+    }
+  }
+  
+  @keyframes counting{
+    @for $i from 1 to 23{
+      0%{
+        content: "0";
+      }
+      #{$i}0%{
+        content: "#{$i}";
+      }
+    }
+  }
+
+  .B{
+    
+    color: #F27329;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    &:before{
+      content: "0";
+      animation: counting1 1s forwards;
+    }
+  }
+  
+  @keyframes counting1{
+    @for $i from 1 to 208{
+      0%{
+        content: "0";
+      }
+      #{$i}0%{
+        content: "#{$i}";
+      }
+    }
+  }
+
+  .C{
+
+    color: #70BF4B;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    &:before{
+      content: "0";
+      animation: counting2 2s forwards;
+    }
+  }
+  
+  @keyframes counting2{
+    @for $i from 1 to 7400 {
+      0%{
+        content: "0";
+      }
+      #{$i}0%{
+        content: "#{$i}";
+      }
+    }
+  }

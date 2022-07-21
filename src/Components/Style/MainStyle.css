@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Gulzar&family=Noto+Sans+Arabic:wght@600&display=swap');
+.nav-cont {
+  font-family: 'Noto Sans Arabic', sans-serif;
+    display: flex;
+    position:fixed;
+    width: 100%;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 11;
+   
+    background-color: #0000008f;
+  }
+  .nav-item {
+    padding: 1.5em;
+        margin-left: 49px;
+  }
+ul {
+    margin-top: 0;
+    font-size: 20px;
+    /* margin-bottom: 1rem; */
+}
+
+.logo-image {
+  
+  margin-left: 118px;
+  width: 193px;
+  height: 66px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+  margin-top: 13px !important
+}
+.Shape{
+  width: 364px;
+  height: 3px;
+  left: 1005px;
+  margin-top: 31px;
+  background-color: #70BF4B;
+  position: relative;
+  animation-name: Shape;
+  animation-duration: 4s;
+}
+
+.Shape2 {
+    width: 364px;
+    height: 3px;
+    left: -149px;
+    background-color: #70BF4B;
+    position: relative;
+    animation-name: Shape2;
+    animation-duration: 4s;
+}
+
+@keyframes Shape {
+  0%   { right:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+}
+
+@keyframes Shape2 {
+  0%   { right:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+}
+
+
+.about-taqat{
+  font-family: 'Noto Sans Arabic', sans-serif;
+  margin-top: 81px;
+  margin-bottom: 43px;
+}
+#taqat-header{
+  font-size: 85px;
+  right: -423px;
+  margin-top: 1px;
+  color: #051F40;
+  position: relative;
+  animation-name: taqatName;
+  animation-duration: 4s;
+ 
+}
+@keyframes taqatName {
+  0%   { right:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+}
+#divTIS {
+  width: 907px;
+  font-size: 19px;
+  /* right: -120px; */
+  margin-left: 322px;
+  margin-top: 20px;
+}
+
+#taqatIS{
+  color: #051F40;
+}
+
+:root {
+  --dark-blue: #1F4782;
+  --dark-gray: #303335;
+  --golden: #AB834C;
+  --golden-tainoi: #E9BE71;
+  --gray: #818C96;
+  --white: #FFF;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.CardsProject {
+  
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.general-container3 {
+  display: flex;
+  height: 30rem;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.radio {
+  display: none;
+}
+
+.content {
+  background: var(#010440)
+  100% / cover no-repeat;
+ 
+  cursor: pointer;
+  flex: 1;
+  margin-right: 0.8rem;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+.content:hover {
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+
+.content:nth-of-type(1) {
+  background-color: #051F40;
+}
+.content:nth-of-type(2) {
+  background-color:#F4C30F;
+}
+
+.content:nth-of-type(3) {
+  background-color: #70BF4B;
+}
+
+.content:nth-of-type(4) {
+  background-color: #F27329;
+}
+
+.content:nth-of-type(5) {
+  background-color: #00958F;
+  margin-right: 0;
+}
+
+.card-title {
+  bottom: 1.2rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  left: 1000px;
+  top: 34px;
+  line-height: 1.1;
+  opacity: 0;
+  position: absolute;
+  text-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  transform: translateX(2rem);
+  transition: 290ms cubic-bezier(0.05, 0.61, 0.41, 0.95) 300ms;
+  transition-property: opacity, transform;
+  user-select: none;
+  white-space: nowrap;
+}
+
+
+.subtitle {
+  padding: 49px;
+  font-size: 17px;
+  margin-left: -1000px;
+  margin-top: 81px;
+}
+
+.buttonsCards{
+  margin-left: -965%;
+  margin-top: 24px;
+}
+
+/* Effect */
+.radio:checked + .content {
+  
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+  flex: 10;
+}
+
+.radio:checked + .content > .card-title {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.CardsShape{
+  width: 393px;
+  height: 79px;
+  margin-left: -276px;
+  margin-top: 17px;
+  position: relative;
+  animation-name: CardsShape1;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+
+}
+@keyframes CardsShape1 {
+  from {left: 0px;}
+  to {left: 250px;}
+}
+
+.CardsShape2{
+  width: 393px;
+  height: 79px;
+  margin-left: 800px;
+  margin-top: 234px;
+  position: relative;
+  animation-name: CardsShape2;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  
+
+}
+@keyframes CardsShape2{
+  from {left: 0px;}
+  to {left: 250px;}
+}
+
+.social__icon--1 {
+    background-color: #00958F;
+  
+}
+.social__icon--2 {
+  background-color: #051F40;
+
+}
+.social__icon--3 {
+  background-color:#70BF4B;
+
+}
+.social__icon--4 {
+    background-color: #fb740b;
+
+}
+
+
+
+/* Display icons next to each other */
+.social__item {
+    display: inline-block;
+    margin-right:1.1em
+}
+
+/* Basic icon style */
+.icon, [class^="icon--"] {
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "entypo";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+}
+
+/* Icon background */
+.social__icon, [class^="social__icon"] {
+  border-radius: 50%;
+  color: white;
+  float: left;
+  margin: auto;
+  padding: 19px;
+  font-size: 1.4em;
+  height: 114px;
+  text-align: center;
+  text-decoration: none;
+  width: 116px;
+  position: absolute;
+  display: flex;
+  margin-left: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.line1{
+  width: 288px;
+  height: 6px;
+  position: absolute;
+  bottom: 10x;
+  background-position-x: -31;
+  margin-top: 208px;
+  /* z-index: 11; */
+  /* top: -13px; */
+  left: 0px;
+  /* margin-bottom: 1px; */
+  background-color: #00958F;
+  animation-name: socialicon;
+  animation-duration: 3s;
+  animation-delay: 4;
+  animation-iteration-count: infinite;
+}
+@keyframes socialicon {
+  from{left:-200px;}
+  to{left: 0px;}
+
+}
+
+.line2{
+  width: 300px;
+  height: 6px;
+  position: absolute;
+  bottom: 10x;
+  background-position-x: -31;
+  margin-top: 208px;
+  /* z-index: 11; */
+  /* top: -13px; */
+  left: 344px;
+  /* margin-bottom: 1px; */
+  background-color: #051F40;
+  animation-name: socialicon2;
+  animation-duration: 3s;
+  animation-delay: 3;
+  animation-iteration-count: infinite;
+}
+@keyframes socialicon2{
+  from{left: 0px;}
+  to{left: 343px;}
+
+}
+.line3{
+  width: 400px;
+  height: 6px;
+  position: absolute;
+  bottom: 10x;
+  background-position-x: -31;
+  margin-top: 208px;
+  /* z-index: 11; */
+  /* top: -13px; */
+  left: 672px;
+  right: 0px;
+  /* margin-bottom: 1px; */
+  background-color: #70BF4B;
+  animation-name: socialicon3;
+  animation-duration: 3s;
+  animation-delay: 2;
+  animation-iteration-count: infinite;
+}
+@keyframes socialicon3{
+
+ from{left: 0px;}
+ to{right: 433px;}
+}
+.line4{
+  width: 624px;
+  height: 6px;
+  position: absolute;
+  bottom: 10x;
+  background-position-x: -31;
+  margin-top: 208px;
+  /* z-index: 11; */
+  /* top: -13px; */
+  left: 1075px;
+  right: 0;
+  /* margin-bottom: 1px; */
+  background-color: #F27329;
+  animation-name: socialicon4;
+  animation-delay: 2;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+@keyframes socialicon4{
+  from{left: 0px;}
+  to{left: 1070px;}
+
+}
+/* Add padding to icons container */
+.social__container {
+    padding: 1em;
+}
+
+.Cards-starts{
+  margin-left: -127px;
+  margin-top: 58px;
+  padding: 94px;
+}
+
+.SteperCards{
+  margin-left: 161px;
+}
+
+#taqat-header2{
+  font-size: 57px;
+  right: -395px;
+  margin-top: 3px;
+  margin-bottom: 70px;
+  color: #051F40;
+  position: relative;
+  animation-name: taqatName;
+  animation-duration: 4s;
+
+}
+@keyframes taqatName {
+  0%   { right:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  font-size: 25px;
+  margin-top: 1px;
+  color: #051F40 !important;
+}
+
+
+.numli{
+   margin: 99px;
+  margin-left: 227px;
+}
+#new{
+  margin: 99px;
+  margin-left: 227px;
+}
+
+.countNum{
+  position: absolute;
+  margin-top: -281px;
+}
+
+.numMarg{
+  margin-bottom: 184px;
+}
+.shapNum{
+  position: absolute;
+  margin-top: -365px;
+  margin-left: -309px;
+
+}
+

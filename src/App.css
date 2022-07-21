@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Gulzar&family=Noto+Sans+Arabic:wght@600&display=swap');
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Courses{
+  background-color: #0a1b4f24;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.card1 {
+
+  width: 100x;
+  height: 100%;
+  margin: 10px;
+  padding: 17px;
+  border-radius: 0.25rem;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+
+.shadow {
+  font-family: 'Noto Sans Arabic', sans-serif;
+  box-shadow: 0 .5rem 1remrgba(0,0,0,.15)!important;
+  background-color: #0000008f;
+  color: white;
+}
+
+.small, small {
+  font-size: .875em;
+  margin-left: -175px;
+}
+
+.logo-image2 {
+  width: 1285px;
+  margin-left: 7%;
+}
+
+.CardeProject {
+  margin-bottom: 700px;
+}
+#headerGreen{
+  color: #70BF4B;
+}
+#headerOrange{
+  color: #F27329;
+}
+#headerBlue{
+  color: #00958F;
+}
+
+.projectLeft {
+  width: 608px;
+  position: absolute;
+  left: 226px;
+  margin-top: 65px;
+}
+
+.headerLeft {
+  position: absolute;
+  right: 87px;
+  margin-top: 84px;
+}
+
+.paragrafLeft {
+  position: absolute;
+  right: 76px;
+  font-size: 21px;
+  text-align: right;
+  margin-top: 168px;
+}
+.Card2 {
+  margin-top: 571px;
+}
+
+.Card3 {
+  margin-top: 550px;
+}
+
+
+.projectRight {
+  width: 608px;
+  position: absolute;
+  right: 226px;
+  height: 450px;
+  margin-top: 65px;
+}
+
+.headerRight {
+  position: absolute;
+  left: 87px;
+  font-size: 38px;
+  margin-top: 84px;
+}
+
+.paragrafRight {
+  position: absolute;
+  left: 228px;
+  font-size: 21px;
+  text-align: right;
+  margin-top: 168px;
+}
+.HeaderP{
+  margin-top: 67px;
+  margin-left: 354px;
+}
+
+.ProjectCardsButton{
+    right: 84px;
+    margin-top: 274px;
+    position: absolute;
+}
+.ProjectCardsButtonR{
+
+  left: 588px;
+  margin-top: 309px;
+  position: absolute;
+}
+
+.wSet1 ,.wSet3{
+  left: 146px;
+  margin-top: 380px;
+  position: absolute;
+  width: 410px;
+  height: 26px;
+}
+
+.wSet2{
+  right: 1px;
+  margin-top: 380px;
+  position: absolute;
+  width: 410px;
+  height: 26px;
+}
+
+.shapes1 , .shapes3 {
+  width: 500px;
+  height: 81px;
+  position: relative;
+  animation-name: sh2;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+}
+
+@keyframes sh1 {
+  from { left:-100px; top:0px;}
+  to { left:20px; top:0px;}
+}
+
+.shapes2{
+  width: 500px;
+  height: 81px;
+  position: relative;
+  animation-name: sh2;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+}
+
+@keyframes sh2 {
+ from { left:-100px; top:0px;}
+  to { left:20px; top:0px;}
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto auto ;
+  /* background-color: #2196F3; */
+  padding: 7px;
+  height: 480px;
+}
+.grid-container2 {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto auto ;
+  
+  padding: 7px;
+}
+.grid-item-1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  font-size: 30px;
+  text-align: right;
+  
+}
+
+.grid-item-2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  font-size: 80px;
+  width: 100px;
+  margin-right: -180px;
+  margin-left: 108px;
+  text-align: right;
+  color: #051F40;
+}
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+ 
+  padding: 15px;
+  margin-top: 31px;
+  font-size: 30px;
+  height: 235px;
+  text-align: right;
+}
+.services{
+  height: 500px;
+}
+.SerPage{
+margin-bottom: 100px;
+}
+.hrW{
+  width: 209px;
+  position: absolute;
+  margin-left: 317px;
+}
+.hrW2{
+  width: 209px;
+  position: absolute;
+  margin-left: 324px;
+}
+
+.subSer{
+  margin-top: 34px;
+  color: #4b4c4d;
+}
+.verticalShape{
+   width: 500px;
+  height: 81px;
+  margin-left: 1202px;
+  position: relative;
+  animation-name: Ver1;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+
+}
+#VerTSH{
+  margin-left: 40px;
+  margin-top: -322px;
+  height: 503px;
+}
+
+@keyframes Ver1 {
+  from { left:0px; top:100px;}
+   to { left:0px; top:0px;}
+ }
+ .horShape{
+  width: 500px;
+  height: 81px;
+  margin-left: -45px;
+  position: relative;
+  animation-name: hor1;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+ }
+
+ @keyframes hor1 {
+  from { left:-50px; top:0px;}
+   to { left:0px; top:0px;}
+ }
+ #HorTSH{
+  margin-left: -49px;
+  margin-top: -629px;
+  height: 101px;
+}
+
+.FormContact{
+  width: 620px;
+  margin-left: 246px;
+  border: 2px solid #F27329;
+  border-radius: 25px;
+  margin-bottom: 413px;
+  margin-top: 80px;
+  padding: 47px;
+  text-align: right;
+}
+.label-contact{
+  height: 25px;
+}
+#message{
+  height: 110px;
+}
+.contactHeader{
+  position: absolute;
+  margin-left: 709px;
+  margin-top: -994px;
+  text-align: right;
+}
+
+#h6con{
+  position: absolute;
+  margin-top: -890px;
+  text-align: right;
+  margin-left: 927px;
+  font-size: 20px;
+}
+.horShape2{
+  width: 500px;
+  height: 81px;
+  margin-left: -45px;
+  position: relative;
+  animation-name: hor2;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+ }
+
+ @keyframes hor2 {
+  from { right:0px; top:0px;}
+   to { right:-100px; top:0px;}
+ }
+#HorTSH2{
+
+  margin-right: -2301px;
+  margin-top: -1311px;
+  height: 129px;
+  width: 668px;
+}
+#HorTSH1{
+  margin-left: -170px;
+  margin-top: -1836px;
+  height: 94px;
+  width: 243px;
+}
+
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+ 
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(118vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.messSub{
+  margin-top: 20px;
+  height: 500px;
+}
+.box {
+  position: relative;
+  width: 33%;
+  margin: 0 auto;
+  height: 242px;
+  max-height: 81vh;
+  margin-top: calc(117vh - 84vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 7px solid #999;
+  overflow: auto;
+}
+#contMess{
+  font-size: 42px;
+  text-align: center;
+  margin-right: 73px;
+  margin-bottom: 41px;
+  /* position: absolute; */
+}
